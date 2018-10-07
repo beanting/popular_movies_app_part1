@@ -1,0 +1,30 @@
+<resources>
+
+    <!--TODO: insert API key here-->
+    <string name="api_key"></string>
+
+    <string name="app_name">Popular Movies</string>
+
+    <string name="menu_sort">Sorting</string>
+    <string name="sort_dialog_title">Sorting</string>
+
+    <string name="placeholder">Placeholder</string>
+    <string name="image_url_format_w500">http://image.tmdb.org/t/p/w500%1$s</string>
+    <string name="image_url_format_original">http://image.tmdb.org/t/p/original%1$s</string>
+    <string name="image_url_format_w300">http://image.tmdb.org/t/p/w300%1$s</string>
+    <string name="perf_sort_type_default">popularity.desc</string>
+    <string name="pref_sort_type_key">com.vincentangway.popularmovies.preferenceSortTypeKey</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="error_getting_id">Error loading movie</string>
+    <string name="details_caption_format">Released %1$s\nVote Average: %2$s</string>
+    <string name="details_card_title_summary">Overview</string>
+    <string name="action_sort">Sort</string>
+
+    <string name="fragment_main_tag">MainFragmentTag</string>
+    <string name="fragment_details_tag">FragmentDetailsTag</string>
+
+    <string name="share_video_format">%1$s | %2$s\n\nyoutu.be/%3$s</string>
+    <string name="share_movie_format">%1$s\n\nthemoviedb.org/movie/%2$s</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base Application Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/material_grey900</item>
+        <item name="colorPrimaryDark">@color/material_grey900</item>
+        <item name="colorAccent">@color/material_redA700</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/material_grey900</item>
+        <item name="colorPrimaryDark">@color/material_grey900</item>
+        <item name="colorAccent">@color/material_redA700</item>
+    </style>
+
+    <!-- Menu Theme -->
+    <style name="MenuDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/material_redA700</item>
+        <item name="android:textColorPrimary">@color/material_grey900</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Toolbar -->
+    <style name="Toolbar">
+        <item name="android:background">?colorPrimary</item>
+    </style>
+
+    <style name="ActionBar.ThemeOverlay" parent="">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="colorControlHighlight">#3fff</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="ActionBar.PopupThemeOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="ActionBar.Subtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+</resources>

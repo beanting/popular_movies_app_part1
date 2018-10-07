@@ -1,0 +1,1 @@
+Include API key on string.xml
